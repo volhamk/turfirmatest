@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	background-image: url('../img/bg1.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+
+.nav-item {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 86px;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+/*псевдо класс, чтобы последняя кнопка Контакты была без отступа справа*/
+.nav-item:last-child {
+	margin-right: 0;
+}
+
+.nav-item:hover {
+	color: #bc1717;
+}
+.nav {
+	display: flex;
+	justify-content: center;
+	padding-top: 34px;
+}
+
+
+.title {
+	color: #fff;
+	font-size: 80px;
+	width: 1114px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 146px;
+	font-weight: 900;
+	
+}
+
+.subtitile {
+	color: #fff;
+	font-size: 56px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 88px;
+	font-weight: 900;	
+	line-height: 44px;
+}
+
+.input {
+	width: 447px;
+	height: 67px;
+	font-size: 24px;
+	outline: none;
+	background: #E9E9E9;
+	border: 4px solid #8D8D8D;
+	border-radius: 20px;
+	padding-left: 23px;
+}
+
+.forma {
+	text-align: center;
+	margin-top: 48px;
+}
+
+.btn {
+	background: #5B89CE;
+	padding: 15px 18px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	border: 2px solid #476443;
+	border-radius: 25px;	
+}
+
+.btn:hover {
+	background: #293E5F;
+}
+
+.button {
+	text-align: center;
+	margin-top: 32px;
+}
